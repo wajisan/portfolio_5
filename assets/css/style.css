@@ -1,0 +1,130 @@
+
+body {
+	background-image: none;
+	background-size: 100%;
+    background: linear-gradient(141deg, #ffffff 0%, #999999 51%, #222222 85%);
+    color: white;
+    opacity: 0.95;
+}
+
+.color-text {
+	color: #333333;
+}
+
+.hed {
+	padding-right: 20px !important;
+}
+
+.skillbar {
+	position:relative;
+	display:block;
+	margin-bottom:15px;
+	width:100%;
+	background:#eee;
+	height:35px;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	-webkit-transition:0.4s linear;
+	-moz-transition:0.4s linear;
+	-ms-transition:0.4s linear;
+	-o-transition:0.4s linear;
+	transition:0.4s linear;
+	-webkit-transition-property:width, background-color;
+	-moz-transition-property:width, background-color;
+	-ms-transition-property:width, background-color;
+	-o-transition-property:width, background-color;
+	transition-property:width, background-color;
+}
+
+.skillbar-title {
+	position:absolute;
+	top:0;
+	left:0;
+width:110px;
+	font-weight:bold;
+	font-size:13px;
+	color:#ffffff;
+	background:#6adcfa;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-bottom-left-radius:4px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-bottomleft:3px;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+
+.skillbar-title span {
+	display:block;
+	background:rgba(0, 0, 0, 0.1);
+	padding:0 20px;
+	height:35px;
+	line-height:35px;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-bottom-left-radius:3px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-bottomleft:3px;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+
+.skillbar-bar {
+	height:35px;
+	width:0px;
+	background:#6adcfa;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+}
+
+.skill-bar-percent {
+	position:absolute;
+	right:10px;
+	top:0;
+	font-size:11px;
+	height:35px;
+	line-height:35px;
+	color:#ffffff;
+	color:rgba(0, 0, 0, 0.4);
+	display: none;
+}
+
+
+
+textarea {
+	line-height: 0.5em;
+}
+
+.mylink {
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+}
+
+table {
+	color: black;
+}
+
+.bdate {
+	font-weight: bold;
+	color: #444444;
+	font-size: 16px;
+}
+
+.img-proj {
+	height: 115px;
+	max-width: 223px;
+}
+
+td {
+	vertical-align: top !important;
+}
+
+.ulb {
+	font-size: 15px;
+}
+
+.langa {
+	font-weight: bold;
+	color: black;
+}
